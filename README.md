@@ -1,2 +1,19 @@
-# SOFTWARE-EFFORT-ESTIMATION-USING-MACHINE-LEARNING-ALGORITHMS
-Developed a software effort estimation model using machine learning algorithms to predict project effort based on historical data. Implemented and compared models like Linear Regression, Decision Tree, and Random Forest to improve estimation accuracy, aiding in better project planning and resource allocation.
+Frontend
+```sh
+npm i
+
+npm run dev
+```
+
+Backend (Python 3.9.0)
+```sh
+cd backend
+
+py -3.9 -m venv venv
+
+venv/Scripts/activate
+
+pip install -r requirements.txt
+
+python app.py
+```
